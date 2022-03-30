@@ -4,6 +4,10 @@ This is the simplest way to do it. We train a simple model in the jupyter notebo
 
 Data used is the  [coffee quality dataset](https://github.com/jldbc/coffee-quality-database).
 
+The slides can be found at
+
+https://docs.google.com/presentation/d/1Nsa6A894GizKS930MDOQn49gksxiMTbYX5OXYQ-QepI/edit#slide=id.gcb9a0b074_1_0
+
 ##
 Requirements:
 - pyenv with Python: 3.9.4
