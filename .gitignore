@@ -134,3 +134,6 @@ data/*.pdf
 data/*.pkl
 data/*.p
 models/*.sav
+model_save/*.sav
+proc_data/*.csv
+subs/*.csv
