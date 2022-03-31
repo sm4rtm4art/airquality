@@ -34,12 +34,16 @@ data used:
 
 This data has been collected from five sensors stationed across Uganda. Readings are taken every hour. As is the reality with all data there are missing values. This is a challenge for you to overcome.
 
-1. Read data
 
-the data 
 
 [EDA](EDA-and-modeling.ipynb)
+[]
 
+## Modeling 
+
+- [linear model](EDA-and-modeling.ipynb)
+- [RandomForestRegressor](modelpreparation.ipynb)
+- 
 # ds-modeling-pipeline
 Skeleton project for building a simple model in python script
 This is the simplest way to do it. We train a simple model in the jupyter notebook, where we select only some features and do minimal cleaning. The output is then stored in simple python scripts.
