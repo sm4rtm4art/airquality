@@ -128,6 +128,17 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+#data
+*.csv
+*.pkl
+*.p
+*.pdf
 
 data/*.csv
+data/*.pdf
+data/*.pkl
+data/*.p
 models/*.sav
+model_save/*.sav
+proc_data/*.csv
+subs/*.csv
