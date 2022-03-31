@@ -130,4 +130,7 @@ dmypy.json
 
 
 data/*.csv
+data/*.pdf
+data/*.pkl
+data/*.p
 models/*.sav
