@@ -28,7 +28,11 @@ The weather indicators available in the train and test are:
 
 data used: 
 - Train.csv
-- Test.csv
+- ~~Test.csv~~ <br>
+
+preprocessing:
+- for regression : [feature_engineering_reg.py](feature_engineering_reg.py)
+- for classification : [feature_engineering_clf.py](feature_engineering_clf‚.py)
 
 ## EDA
 

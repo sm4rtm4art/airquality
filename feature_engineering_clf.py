@@ -101,7 +101,7 @@ if __name__=="__main__":
     print('6fold_airquality: "Good", "Moderate", "low unhealthy","med unhealthy","very unhealthy","hazardous"')
     data["6fold_airquality"]=pd.cut(data["target"],bins=[ 0, 12, 35, 55, 150, 250, 476 ], labels=["Good", "Moderate", "low unhealthy","med unhealthy","very unhealthy","hazardous"])
     print(f'----'*15)
-    print(f'Data: {data.shape}, saved in: data/data_prep_reg.csv ')
+    print(f'Data: {data.shape}, saved in: data/data_prep_clf.csv ')
     print(f'data columns: {data.columns}')
-    data.to_csv('data/data_prep_reg.csv')
+    data.to_csv('data/data_prep_clf.csv')
     del data
