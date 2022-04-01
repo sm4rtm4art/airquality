@@ -45,7 +45,8 @@ This data has been collected from five sensors stationed across Uganda. Readings
 
 ## Modeling 
 
-- [linear model](EDA-and-modeling.ipynb)
+- [Basis Model](basis_model.ipynb) : prediction mean of target
+- [Linear model](EDA-and-modeling.ipynb)
 - [RandomForestRegressor](modelpreparation.ipynb)
 - 
 # ds-modeling-pipeline
