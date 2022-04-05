@@ -31,10 +31,15 @@ data used:
 - ~~Test.csv~~ <br>
 
 preprocessing:
-- for regression with summarized features: [feature_engineering_reg.py](feature_engineering_reg.py)
-- for regression with all features: [feature_engineering_all_features.py](feature_engineering_all_features.py)
-- for classification : [feature_engineering_clf.py](feature_engineering_clf.py)
-- 
+- for regression with summarized features:    
+   - [feature_engineering_reg.py](feature_engineering_reg.py) for location D
+   - [feature_engineering_reg_all.py](feature_engineering_reg_all.py) for all locations
+- for regression with all features:     
+   - [feature_engineering_all_features.py](feature_engineering_all_features.py)
+- for classification : 
+   - [feature_engineering_clf.py](feature_engineering_clf.py)
+   - [feature_engineering_clf_all.py](feature_engineering_clf_all.py)
+ 
 
 ## EDA
 
@@ -46,12 +51,15 @@ This data has been collected from five sensors stationed across Uganda. Readings
 []
 
 ## Modeling 
-
-- [Basis Model](basis_model.ipynb) : prediction mean of target
-- [Linear model](EDA-and-modeling.ipynb)
+### Regression: 
+- [Basis Model](basis_model.ipynb): prediction mean of target
+- [Linear model](EDA-and-modeling.ipynb): includingn polymer features
 - [RandomForestRegressor](modelpreparation.ipynb)
 - [SGD Regressor](sgdregressor.ipynb)
 
+### Classification:
+- [Basis Model](basis_model.ipynb)
+- []()
 # ds-modeling-pipeline
 Skeleton project for building a simple model in python script
 This is the simplest way to do it. We train a simple model in the jupyter notebook, where we select only some features and do minimal cleaning. The output is then stored in simple python scripts.
