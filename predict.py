@@ -1,5 +1,6 @@
 import sys
 import pandas as pd
+import numpy as np
 import pickle
 from sklearn.metrics import mean_squared_error
 import warnings
@@ -28,5 +29,7 @@ X_test = drop_column(X_test, col_name='Quakers')
 X_test = fill_missing_values(X_test)
 
 y_test_pred = loaded_model.predict(X_test)
-mse_test = mean_squared_error(y_test, y_test_pred)
-print (f"MSE on test is: {mse_test}")
+rmse_test =np.sqrt( mean_squared_error(y_test, y_test_pred))
+print (f"RMSE on test is: {(rmse_test)}")
+
+
