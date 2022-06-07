@@ -1,3 +1,10 @@
+# Disclaimer
+
+This repo needs cleaning and the cleaning is in progress. 
+In two days of work time for cleaning is very limited :) 
+
+
+
 # AirQo Ugandan Air Quality Forecast 🇺🇬
 
 
